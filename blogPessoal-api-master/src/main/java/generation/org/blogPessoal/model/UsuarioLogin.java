@@ -8,15 +8,17 @@ public class UsuarioLogin {
 
 	private String senha;
 
-	// private boolean admin;
+	private boolean admin;
 
 	private String token;
 
-	/*
-	 * public boolean isAdmin() { return admin; }
-	 * 
-	 * public void setAdmin(boolean admin) { this.admin = admin; }
-	 */
+	public boolean isAdmin() {
+		return admin;
+	}
+
+	public void setAdmin(boolean admin) {
+		this.admin = admin;
+	}
 
 	public String getNome() {
 		return nome;

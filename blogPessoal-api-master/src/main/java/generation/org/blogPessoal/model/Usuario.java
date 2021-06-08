@@ -28,7 +28,7 @@ public class Usuario {
 	@Size(min = 5)
 	private String senha;
 	
-	//private boolean admin;
+	private boolean admin;
 	
 
 	public long getId() {
@@ -63,11 +63,14 @@ public class Usuario {
 		this.senha = senha;
 	}
 
-	/*
-	 * public boolean isAdmin() { return admin; }
-	 * 
-	 * public void setAdmin(boolean admin) { this.admin = admin; }
-	 */
+	public boolean isAdmin() {
+		return admin;
+	}
+
+	public void setAdmin(boolean admin) {
+		this.admin = admin;
+	}
+
 	
 	
 	
